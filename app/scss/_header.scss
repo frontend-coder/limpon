@@ -1,0 +1,141 @@
+
+.header_fon {
+	min-height: 1004px;
+	background-image: url(/img/header-fon.jpg);
+	background-size: cover;
+	background-position: center center;
+	background-repeat: no-repeat;
+	position: relative;
+	// display: flex;
+	// justify-content: center;
+	// align-items: center;
+	overflow: hidden;
+}
+.header_top_line {
+	height: 150px;
+	position: absolute;
+	width: 100%;
+	top:0;
+	left:0;
+
+}
+
+.header_top_content {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	height: 150px;
+}
+
+.header_top_menu ul {
+	display: flex;
+	justify-content: flex-start;
+	list-style: none;
+
+}
+.header_top_menu ul li a {
+	font-size: 12px;
+	padding: 10px 19px;
+	font-family: "OpenSansBold", sans-serif;
+	font-weight: 800;
+	color: rgb(110, 126, 169);
+	font-weight: bold;
+	text-transform: uppercase;
+	text-decoration: none;
+}
+.header_top_menu {
+	margin-left: auto;
+}
+.button_order {
+	display: inline-block;
+	font-size: 12px;
+	padding: 20px 50px;
+	color:#fff;
+	text-decoration: none;
+	text-transform: uppercase;
+	border-radius: 30rem;
+	background-color: rgb(16, 133, 228);
+	font-family: "MyriadPro-Regular", sans-serif;
+	@include transition(all, 0.52s, ease);
+}
+
+.button_order:hover {
+	background-color: darken(rgb(16, 133, 228), 10%);
+}
+
+
+.header_content {
+	margin-top: 430px;
+	margin-bottom: 310px;
+	display: flex;
+	justify-content: flex-start;
+	align-items: center;
+	width:55%;
+	flex-wrap: wrap;
+}
+.header_content h1 {
+	text-align: left;
+	text-transform: uppercase;
+	font-size: 55px;
+	color:#192b59;
+	margin-bottom: 40px;
+}
+.site_button {
+	display: inline-block;
+	font-size: 12px;
+	padding: 22px 40px;
+	letter-spacing: .2rem;
+	color:#fff;
+	text-transform: uppercase;
+	text-decoration: none;
+	text-transform: uppercase;
+	border-radius: 30rem;
+	background-color: #cbdbe8;
+	color:#7e8bae;
+	font-family: "OpenSansBold", sans-serif;
+	@include transition(all, 0.52s, ease);
+}
+
+.header_buttons li:first-child a {
+	background-color: rgb(16, 133, 228);
+	color:#fff;
+}
+.header_buttons li:first-child a:hover {
+	color:#fff;
+	background-color: darken(rgb(16, 133, 228), 10%);
+}
+
+.header_buttons li:last-child a {
+background-color: #cbdbe8;
+	color:#7e8bae;
+}
+.header_buttons li:last-child a:hover {
+background-color:darken( #cbdbe8, 10%);
+	color:#7e8bae;
+}
+
+.header_right {
+	width: 882px;
+	height: 740px;
+	position: absolute;
+	right: 0;
+	top:50%;
+	background-image: url(/img/header-picture.png);
+	transform: translateY(-50%);
+
+}
+
+
+.header_right img {
+	display: inline-block;
+	width: 100%;
+	height: auto;
+}
+
+.header_buttons{
+	list-style: none;
+}
+.header_buttons li{
+	margin-right: 20px;
+	display: inline-block;
+}

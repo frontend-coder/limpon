@@ -1,0 +1,23 @@
+.block {
+	padding: 100px 0 112px 0;
+}
+.header_fon h1 {
+	color:gray;
+}
+.in_hea {
+	color: orange;
+}
+
+.fuv_fon {
+	background-color: #1e8ce6;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+.fuv_fon_box {
+	display: flex;
+	justify-content: space-between;
+}
+.fuv_fon h2 {
+	opacity: 0;
+	display: none;
+}
